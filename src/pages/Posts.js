@@ -24,7 +24,7 @@ const Posts = () => {
   // Fungsi untuk navigasi halaman
   const goToNextPage = () => {
     if (currentPage < totalPages) setCurrentPage(currentPage + 1);
-  };
+  }; 
 
   const goToPreviousPage = () => {
     if (currentPage > 1) setCurrentPage(currentPage - 1);
